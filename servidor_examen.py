@@ -64,4 +64,5 @@ class Servidor():
 					c.send(msg)
 			except: self.clientes.remove(c)
 
-arrancar = Servidor() 
+arrancar = Servidor()
+# No cumple lo solicitado en el enunciado del examen parcial
